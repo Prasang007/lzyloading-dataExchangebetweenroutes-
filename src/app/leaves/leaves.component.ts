@@ -9,12 +9,12 @@ import { ActivatedRoute, Router } from '@angular/router';
 export class LeavesComponent implements OnInit {
 
   constructor(private router: Router) { }
-  someData;
+  mobileNo;
   ngOnInit() {
     
   }
-  subMobile(e:ElementRef){
-    this.router.navigateByUrl('/dashboard', { state: { data: this.someData } });
+  subMobile(){
+    this.router.navigateByUrl('/dashboard', { state: { data: this.mobileNo } });
    
   }
 

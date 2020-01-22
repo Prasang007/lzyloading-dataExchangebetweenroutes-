@@ -12,7 +12,6 @@ export class ApplyLeaveComponent implements OnInit {
   received;
   ngOnInit() {
     this.received = history.state.data;
-
   }
 
 }
