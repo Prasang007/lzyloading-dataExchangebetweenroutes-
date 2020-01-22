@@ -15,3 +15,8 @@ nav a{
 .container{
     border: 1px solid #211919b5;
 }
+.btn-success{
+    margin-top: 12px;
+    border-radius: 10px;
+    padding: 10px;
+}

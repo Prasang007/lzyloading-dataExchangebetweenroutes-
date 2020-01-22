@@ -1,0 +1,10 @@
+
+<label for="name">Name:</label>
+<input type="text" class="form-control" [(ngModel)]="sendData.name" > 
+<label for="mobile">Mobile:</label>
+<div *ngFor="let mobile of mobiles" >
+        <input type="text" class="form-control" name="Mobile" [value]="mobile">
+</div> 
+<a [state]="{data: sendData.name}" routerLink="/leaves">
+    <button type="text" class="btn-success">Add Mobile No:</button>
+</a> 

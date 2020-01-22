@@ -1,0 +1,11 @@
+<h1>Leaves</h1>
+<label for="mobile">Mobile:</label>
+<input type="text" name="mobile"
+class="form-control" [(ngModel)]="someData" >
+<button class="btn-success" (click)="subMobile()"> Save </button>
+<nav>
+    <a class =" button " routerLink="applyLeave" [state]="{data : someData}" routerLinkActive="active" >Apply Leave</a>
+    <a class =" button " routerLink="checkLeave" [state]="{data : someData}" routerLinkActive="active" >Check Leave</a>
+</nav>  
+<router-outlet></router-outlet>
+
