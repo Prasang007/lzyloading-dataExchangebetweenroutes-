@@ -10,7 +10,7 @@ export class AttendenceComponent implements OnInit {
   constructor() { }
 
   ngOnInit() {
-  
+
   }
 
 }

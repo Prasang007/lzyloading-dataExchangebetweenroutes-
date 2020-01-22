@@ -6,7 +6,7 @@ import { AttendenceComponent } from './attendence/attendence.component';
 const routes: Routes = [{
   path: 'dashboard',
   loadChildren: () => import('./dashboard/dashboard.module').then(m => m.DashboardModule)
-  
+
 },
 {
   path: 'profile',

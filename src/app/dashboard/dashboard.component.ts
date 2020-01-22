@@ -7,18 +7,18 @@ import { ActivatedRoute } from '@angular/router';
   templateUrl: './dashboard.component.html',
   styleUrls: ['./dashboard.component.css']
 })
-export class DashboardComponent implements OnInit{
+export class DashboardComponent implements OnInit {
 
   constructor(private route: ActivatedRoute) { }
-  
+
   mobiles = [];
-  
+
   ngOnInit() {
-    if(history.state.data){
-      this.mobiles.push(history.state.data)
-    }    
+    if (history.state.data) {
+      this.mobiles.push(history.state.data);
+    }
   }
- 
+
 
 
 

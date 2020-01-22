@@ -11,11 +11,11 @@ export class LeavesComponent implements OnInit {
   constructor(private router: Router) { }
   mobileNo;
   ngOnInit() {
-    
+
   }
-  subMobile(){
+  subMobile() {
     this.router.navigateByUrl('/dashboard', { state: { data: this.mobileNo } });
-   
+
   }
 
 }
